@@ -149,13 +149,7 @@ export default function Home() {
     );
   }
 
-  /* =====================
-     JENNY → VIEW ONLY
-     ===================== */
-  if (role === "admin") {
-    router.push("/messages");
-    return null;
-  }
+
 
   /* =====================
      WRITE PAGE
